@@ -411,3 +411,6 @@ Contiene las variables de entorno, especialmente la dirección de conexión a la
 
 Este archivo debe permanecer privado y no debe publicarse en GitHub.
 
+
+Comando para ejecutar: python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+
