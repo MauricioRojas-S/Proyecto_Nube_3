@@ -1,17 +1,27 @@
+
 # Credenciales y variables de entorno
 .env
-**/.env
+.env.*
+!.env.example
 
-# Entornos virtuales
-venv/
-.venv/
-
-# Archivos Python
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
 
-# Archivos temporales
+# Entornos y herramientas
+.idea/
+.vscode/
 *.log
 
-# Configuración local
-.vscode/
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.bak
